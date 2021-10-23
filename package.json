@@ -1,10 +1,10 @@
 {
-	"name": "MarsRover",
+	"name": "mars-rover",
 	"description": "A squad of robotic rovers are to be landed by NASA on a plateau on Mars.",
 	"version": "0.0.1",
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"bin": {
-		"MarsRover": "index.js",
+		"marsrover": "index.js",
 		"rovers": "index.js"
 	},
 	"author": {
@@ -14,7 +14,8 @@
 	},
 	"keywords": [
 		"MarsRover",
-		"Mohamed Aimane Skhairi"
+		"Mohamed Aimane Skhairi",
+		"CLI"
 	],
 	"files": [
 		"index.js",
