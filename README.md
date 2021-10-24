@@ -61,7 +61,7 @@ Expected Output:
 
 ![Output](./docs/output.png)
 
-#### Test
+#### Test
 
 -   Run `yarn test`
 
