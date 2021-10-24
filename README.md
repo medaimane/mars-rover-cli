@@ -35,11 +35,11 @@ Input 2: Navigation instructions for the named rover. i.e a string containing ('
 
 The basic requirement to run this project is node.js.
 
-### Setup
+### Install dependencies
 
--   Install dependencies by running `yarn` or `npm install`.
+-   Run `yarn` or `npm install`.
 
-#### Run MarsRover
+### Run MarsRover
 
 -   Use `yarn dev:app` or `yarn dev:app -f [file path]` to run the app.
 
@@ -61,9 +61,9 @@ Expected Output:
 
 ![Output](./docs/output.png)
 
-#### Test
+### Run Tests
 
--   Run `yarn test`
+-   Run `yarn test`.
 
 ## Creators
 
