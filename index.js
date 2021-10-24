@@ -7,4 +7,4 @@
  * @author Mohamed Aimane Skhairi <https://medaimane.github.io>
  */
 
-require('./src/app')();
+require('./src/index')();

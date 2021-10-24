@@ -1,5 +1,5 @@
-const init = require('./utils/init');
-const debug = require('./utils/debug');
+const init = require('./utils/cli/init');
+const debug = require('./utils/cli/debug');
 const handleInput = require('./handleInput');
 
 module.exports = async () => {

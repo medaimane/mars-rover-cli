@@ -19,10 +19,13 @@
 	],
 	"files": [
 		"index.js",
-		"utils"
+		"src"
 	],
 	"scripts": {
-		"format": "prettier --write \"./**/*.{js,json}\""
+		"dev": "node index.js",
+		"dev:app": "node index.js app",
+		"format": "prettier --write \"./**/*.{js,json}\"",
+		"test": "jest"
 	},
 	"dependencies": {
 		"chalk": "^4.1.2",
@@ -34,6 +37,7 @@
 		"meow": "^9.0.0"
 	},
 	"devDependencies": {
+		"jest": "^27.3.1",
 		"prettier": "^2.4.1"
 	}
 }

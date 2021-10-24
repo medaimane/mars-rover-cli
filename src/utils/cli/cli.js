@@ -1,7 +1,7 @@
 const meow = require('meow');
 const meowHelp = require('cli-meow-help');
-const flags = require('../constants/flags');
-const commands = require('../constants/commands');
+const flags = require('../../constants/cli/flags');
+const { commands } = require('../../constants/cli/commands');
 
 const helpText = meowHelp({
 	name: `rovers`,

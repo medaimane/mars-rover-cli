@@ -1,17 +1,9 @@
-const { input, showHelp } = require('./utils/cli');
-
-const keys = require('./constants/commandsKeys');
-const roversRunner = require('./roversRunner');
-
-const isApp = () => input.includes(keys.app);
-const isHelp = () => input.includes(keys.help);
+const app = require('./app/app');
+const { input, showHelp, flags } = require('./utils/cli/cli');
+const { keys } = require('./constants/cli/commands');
 
 module.exports = () => {
-	if (isHelp()) {
-		showHelp(0);
-	}
+	input.includes(keys.help) && showHelp(0);
 
-	if (isApp()) {
-		roversRunner();
-	}
+	input.includes(keys.app) && app({ path: flags.file });
 };

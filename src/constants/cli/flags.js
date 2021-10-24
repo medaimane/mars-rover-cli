@@ -1,14 +1,15 @@
 const flags = {
+	file: {
+		type: `string`,
+		default: `assets/input.txt`,
+		alias: `-f`,
+		decs: `MarsRover configuration input file`
+	},
 	clear: {
 		type: `boolean`,
 		default: false,
 		alias: `c`,
 		desc: `Clear the console`
-	},
-	noClear: {
-		type: `boolean`,
-		default: false,
-		desc: `Don't clear the console`
 	},
 	debug: {
 		type: `boolean`,
